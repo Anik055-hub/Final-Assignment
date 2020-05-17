@@ -40,6 +40,10 @@ class HomeController extends Controller
          $user = User::find($id);
         return view('editProfile',$user);
     }
+     public function list(){
+       $customers = Customer::all(  );  
+       return view('allCustomer')->with(['customers'=>$customers]);
+   }
 
 }
 

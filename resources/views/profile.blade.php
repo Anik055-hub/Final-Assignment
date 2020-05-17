@@ -29,7 +29,7 @@
 			         </td>
 		           </tr>
 	           </table><br>
-	           <a href="{{route('home')}}"><h4>Back</h4></a>
+	           <a href="{{route('home')}}"><h5>Back</h5></a>
              </div>
           </div>
       </div>

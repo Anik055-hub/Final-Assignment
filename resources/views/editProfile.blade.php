@@ -52,7 +52,7 @@
 			               <input type="submit" name="submit" value="Save">
 			             </div>
                        </div>
-                       <a href="{{url('/profile/{id}')}}"><h4>Back</h4></a>
+                       <a href="{{url('/profile/{id}')}}"><h5>Back</h5></a>
 		             </form>       
                 </div>
             </div>
